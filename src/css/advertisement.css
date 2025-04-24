@@ -1,0 +1,127 @@
+.advertisement {
+  margin-bottom: 60px;
+}
+
+.advertisement .container {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.advertisement-box {
+  margin: 0 auto;
+  height: 363px;
+  border-radius: 30px;
+  background-color: #0c0c0c;
+  background-image: url(../img/advertisement/story-mobile-min.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
+    .advertisement-box {
+      background-image: url(../img/advertisement/story-mobile@2x-min.png);
+    }
+  }
+}
+
+.advertisement-wrapper {
+  padding: 60px 28px;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.advertisement-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  max-width: 279px;
+  margin-bottom: 28px;
+}
+
+.accent {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-scroll-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  color: #fbfbfb;
+  padding: 15px 43px 15px 44px;
+
+  width: 160px;
+  height: 48px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  background-color: transparent;
+
+  transition: all 0.3s ease;
+}
+
+.advertisement-scroll-link:hover {
+  background: #fbfbfb;
+  color: #0c0c0c;
+}
+
+@media only screen and (min-width: 768px) {
+  .advertisement {
+    margin-bottom: 80px;
+  }
+
+  .advertisement-box {
+    height: 425px;
+    background-image: url(../img/advertisement/story-tab-min.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media screen and (min-resolution: 2x),
+      (-webkit-min-device-pixel-ratio: 2) {
+      .advertisement-box {
+        background-image: url(../img/advertisement/story-tab@2x-min.png);
+      }
+    }
+  }
+
+  .advertisement-wrapper {
+    padding: 80px 64px;
+  }
+
+  .advertisement-text {
+    max-width: 576px;
+    font-size: 48px;
+    line-height: 0.91;
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advertisement {
+    margin-bottom: 100px;
+  }
+
+  .advertisement-box {
+    height: 298px;
+    background-image: url(../img/advertisement/story-desk-min.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media screen and (min-resolution: 2x),
+      (-webkit-min-device-pixel-ratio: 2) {
+      .advertisement-box {
+        background-image: url(../img/advertisement/story-desk@2x-min.png);
+      }
+    }
+  }
+
+  .advertisement-text {
+    max-width: 690px;
+    margin-bottom: 0;
+    margin-right: 140px;
+  }
+}
