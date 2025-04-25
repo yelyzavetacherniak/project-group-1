@@ -3,10 +3,6 @@
 }
 
 .advertisement .container {
-  width: 100%;
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
 }
 
 .advertisement-box {
@@ -47,6 +43,8 @@
 }
 
 .advertisement-scroll-link {
+  display: block;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
