@@ -38,6 +38,8 @@
 .burger-icon {
     display: block;
     fill: #0C0C0C;
+    stroke-width: 2.50px;
+        stroke: #0c0c0c;
 }
 
 @media only screen and (min-width: 768px) {
@@ -50,10 +52,12 @@
         letter-spacing: -0.02em;
         color: #0c0c0c;
 }
-.burger-icon {
+
+.mobile-menu-button {
     width: 40px;
     height: 40px;
 }
+
 }
 
 @media only screen and (min-width: 1280px) {
@@ -218,12 +222,12 @@ position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 24px;
-    height: 24px;
     border: none;
     cursor: pointer;
     background-color: transparent;
     fill: #fff;
+    stroke-width: 2.50px;
+        stroke: #fbfbfb;
 }
 
 .mobile-menu-nav {
