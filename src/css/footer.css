@@ -120,10 +120,12 @@ gap: 20px;
 .footer-icons-logo {
     font-size: 20px;
 }
+.footer-icons-list {
+    margin-bottom: 86px;
+}
 .footer-icons-link {
     width: 36px;
     height: 36px;
-    margin-bottom: 86px;
 }
 .footer-address-phone {
     font-size: 14px;
@@ -146,6 +148,7 @@ gap: 20px;
     justify-content: space-between;
     padding-bottom: 28px;
     margin-bottom: 28px;
+    gap: 62px;
 }
 .footer-menu-list {
     display: flex;
@@ -180,7 +183,7 @@ gap: 20px;
 .footer-icons-section {
     margin-right: 178px;
 }
-.footer-icons-link {
+.footer-icons-list {
     margin-bottom: 0;
 }
 .footer-slogan {
@@ -193,8 +196,5 @@ gap: 20px;
 }
 .footer-menu-list {
     gap: 40px;
-}
-.footer-address-nav {
-    width: 164px;
 }
 }
