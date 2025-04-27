@@ -1,0 +1,83 @@
+<section class="contacts" id="contact-us">
+  <div class="container">
+    <h2 class="contacts-title">Contact Us</h2>
+
+    <div class="wrap_for_desktop">
+      <div class="form-contacts-wrap">
+        <form class="contacts-form">
+          <p class="contacts-text">
+            Please use the form below to contact us. Enter your name, email,
+            phone, and message and we'll get back to you shortly.
+          </p>
+          <label for="user-name" class="contacts-label"></label>
+          <input
+            type="text"
+            class="contacts-input"
+            id="user-name"
+            name="user-name"
+            placeholder="Name"
+            required
+          />
+          <label for="user-email" class="contacts-label"></label>
+          <input
+            type="email"
+            class="contacts-input"
+            id="user-email"
+            name="user-email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <label for="user-tel" class="contacts-label"></label>
+          <input
+            type="tel"
+            class="contacts-input"
+            id="user-tel"
+            name="user-tel"
+            placeholder="+380"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            required
+          />
+          <label for="user-comment" class="contacts-user-comment-label"></label>
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            class="textarea-comment"
+            placeholder="Comment"
+          ></textarea>
+          <button type="submit" class="contacts-form-btn">Send</button>
+        </form>
+      </div>
+      <div class="contacts-img-wrap">
+        <picture>
+          <source
+            srcset="
+              /img/contact/contact-desk-min.png    1x,
+              /img/contact/contact-desk@2x-min.png 2x
+            "
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="
+              /img/contact/contact-tab-min.png    1x,
+              /img/contact/contact-tab@2x-min.png 2x
+            "
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="
+              /img/contact/contact-mobile-min.png    1x,
+              /img/contact/contact-mobile@2x-min.png 2x
+            "
+            media="(max-width:767px)"
+          />
+          <img
+            src="/img/contact/contact-desk-min.png"
+            alt="watch"
+            class="contacts-img"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
