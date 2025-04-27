@@ -168,6 +168,7 @@ position: fixed;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    z-index: 1000;
 }
 .mobile-menu.is-close {
     opacity: 0;
