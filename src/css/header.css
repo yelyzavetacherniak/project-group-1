@@ -195,6 +195,7 @@ position: fixed;
     (min-resolution: 2dppx) {
         .mob-bg-image {
             background-image: url('/img/menu/menu-tab@2x-min.jpg');
+            background-size: cover;
         }
     }
 }
