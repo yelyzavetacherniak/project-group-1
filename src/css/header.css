@@ -179,7 +179,7 @@ position: fixed;
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .hero__bg-image {
-        background-image: url(/img/menu/menu-mobile@2x-min.jpg);
+        background-image: url('/img/menu/menu-mobile@2x-min.jpg');
     }
 }
 
