@@ -1,5 +1,4 @@
 .sale {
-  padding: 30px 0;
   background: #fbfbfb;
 }
 
@@ -164,10 +163,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .sale {
-    padding: 40px 0;
-  }
-
   .sale-title {
     font-size: 48px;
     line-height: 0.92;
@@ -184,7 +179,6 @@
     flex-direction: column;
     gap: 10px;
   }
-
 
   .sale-list-item {
     border-radius: 20px;
@@ -256,10 +250,13 @@
     font-size: 14px;
     line-height: 1.28;
   }
-
 }
 
 @media only screen and (min-width: 1280px) {
+  .sale-img-wrapper {
+    width: 428px;
+  }
+
   .sale-container {
     margin-bottom: 100px;
     flex-direction: row;
