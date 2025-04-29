@@ -42,7 +42,6 @@
   line-height: 129%;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
-  min-width: 295px;
 }
 
 .about-us-btn {
@@ -62,10 +61,6 @@
 .about-us-btn:hover,
 .about-us-btn:focus {
   background-color: #1f3cd4;
-}
-
-.about-us-img {
-  min-width: 335px;
 }
 
 @media screen and (min-width: 768px) {

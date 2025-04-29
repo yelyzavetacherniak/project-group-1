@@ -4,47 +4,63 @@
 
     <div class="wrap_for_desktop">
       <div class="form-contacts-wrap">
+        <p class="contacts-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
         <form class="contacts-form">
-          <p class="contacts-text">
-            Please use the form below to contact us. Enter your name, email,
-            phone, and message and we'll get back to you shortly.
-          </p>
-          <label for="user-name" class="contacts-label"></label>
-          <input
-            type="text"
-            class="contacts-input"
-            id="user-name"
-            name="user-name"
-            placeholder="Name"
-            required
-          />
-          <label for="user-email" class="contacts-label"></label>
-          <input
-            type="email"
-            class="contacts-input"
-            id="user-email"
-            name="user-email"
-            placeholder="Email"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            required
-          />
-          <label for="user-tel" class="contacts-label"></label>
-          <input
-            type="tel"
-            class="contacts-input"
-            id="user-tel"
-            name="user-tel"
-            placeholder="+380"
-            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-            required
-          />
-          <label for="user-comment" class="contacts-user-comment-label"></label>
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            class="textarea-comment"
-            placeholder="Comment"
-          ></textarea>
+          <div>
+            <label for="user-name" class="contacts-label">
+              <input
+                type="text"
+                class="contacts-input"
+                id="user-name"
+                name="user-name"
+                placeholder="Name"
+                required
+              />
+            </label>
+          </div>
+          <div>
+            <label for="user-email" class="contacts-label">
+              <input
+                type="email"
+                class="contacts-input"
+                id="user-email"
+                name="user-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
+            </label>
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
+          <div>
+            <label for="user-tel" class="contacts-label">
+              <input
+                type="tel"
+                class="contacts-input"
+                id="user-tel"
+                name="user-tel"
+                placeholder="+380"
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                required
+              />
+            </label>
+            <p class="text-valid">Success!</p>
+            <p class="text-invalid">Invalid phone number</p>
+          </div>
+          <div>
+            <label for="user-comment" class="contacts-user-comment-label">
+              <textarea
+                name="user-comment"
+                id="user-comment"
+                class="textarea-comment"
+                placeholder="Comment"
+              ></textarea>
+            </label>
+          </div>
           <button type="submit" class="contacts-form-btn">Send</button>
         </form>
       </div>
