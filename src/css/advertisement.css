@@ -8,11 +8,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
 
-  @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
-    .advertisement-box {
-      background-image: url(../img/advertisement/story-mobile@2x-min.png);
-    }
+@media screen and (min-resolution: 2x), (min-resolution: 192dpi) {
+  .advertisement-wrapper {
+    background-image: url(../img/advertisement/story-mobile@2x-min.png);
   }
 }
 
@@ -63,12 +63,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
 
-    @media screen and (min-resolution: 2x),
-      (-webkit-min-device-pixel-ratio: 2) {
-      .advertisement-box {
-        background-image: url(../img/advertisement/story-tab@2x-min.png);
-      }
+  @media screen and (min-resolution: 2x), (min-resolution: 192dpi) {
+    .advertisement-wrapper {
+      background-image: url(../img/advertisement/story-tab@2x-min.png);
     }
   }
 
@@ -91,12 +90,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
 
-    @media screen and (min-resolution: 2x),
-      (-webkit-min-device-pixel-ratio: 2) {
-      .advertisement-box {
-        background-image: url(../img/advertisement/story-desk@2x-min.png);
-      }
+  @media screen and (min-resolution: 2x), (min-resolution: 192dpi) {
+    .advertisement-wrapper {
+      background-image: url(../img/advertisement/story-desk@2x-min.png);
     }
   }
 
