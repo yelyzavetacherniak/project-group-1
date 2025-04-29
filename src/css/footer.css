@@ -1,9 +1,26 @@
+
+address {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    }
+  
+.footer-container{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 .footer-wraper {
   padding: 40px 28px 28px;
   background-color: #0c0c0c;
   border-radius: 30px;
 }
-
+.footer-icons-slogan{
+    margin-bottom: 92px;
+}
+.footer-icons-section{
+    margin-bottom: 20px;
+}
 .footer-icons-logo {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
@@ -14,11 +31,10 @@
   margin-bottom: 20px;
 }
 .footer-icons-list {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  margin-bottom: 20px;
-}
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
 .footer-icons-link {
   display: flex;
   height: 34px;
@@ -52,15 +68,15 @@
   margin-bottom: 40px;
 }
 .footer-slogan {
-  display: flex;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #fbfbfb;
-  margin-bottom: 92px;
+    display: flex;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+   
 }
 .footer-menu-address {
   display: flex;
@@ -110,17 +126,25 @@
 /*---------------------------------media768------------------------*/
 
 @media screen and (min-width: 768px) {
-  .footer-wraper {
-    padding: 40px 40px 28px;
-    position: relative;
-  }
-  .footer-icons-logo {
+ .footer-container{
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+.footer-wraper {
+        padding: 40px 40px 28px;
+        position: relative;
+}
+.footer-icons-slogan{
+    margin-bottom: 100px;
+}
+.footer-icons-section{
+    margin-bottom: 20px;
+}
+.footer-icons-logo {
     font-size: 20px;
-  }
-  .footer-icons-list {
-    margin-bottom: 86px;
-  }
-  .footer-icons-link {
+}
+
+.footer-icons-link {
     width: 36px;
     height: 36px;
   }
@@ -137,9 +161,8 @@
   .footer-slogan {
     font-size: 28px;
     line-height: 1.14;
-    margin-bottom: 100px;
-  }
-  .footer-menu-address {
+}
+.footer-menu-address {
     font-size: 14px;
     line-height: 1.29;
     justify-content: space-between;
@@ -170,10 +193,14 @@
   }
 }
 
+
 /*-----------------------media1280-------------------*/
 
 @media screen and (min-width: 1280px) {
-  .footer-icons-slogan {
+    .footer-container{
+        padding-top: 50px;
+    }
+.footer-icons-slogan {
     display: flex;
     margin-bottom: 126px;
   }
