@@ -16,17 +16,17 @@
 }
 
 .catalog-list-item {
-  background-color: #f3f3f3;
-  border: 1px solid rgba(12, 12, 12, 0.05);
-  border-radius: 30px;
-  padding: 24px 28px;
-  box-sizing: border-box;
-  width: 335px;
-  height: 364px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #f3f3f3;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    padding: 24px 28px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .catalog-list-item:hover {
@@ -38,8 +38,11 @@
 }
 
 .catalog-image-wrap {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
 
   padding-top: 18px;
   padding-bottom: 18px;
@@ -48,10 +51,6 @@
 .catalog-image {
   width: 100%;
   object-fit: cover;
-}
-
-.catalog-image.first-img {
-  opacity: 0.8;
 }
 
 .catalog-product-info {
@@ -104,10 +103,25 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .catalog-subtitle {
-    font-size: 48px;
-    line-height: 0.91;
-    margin-bottom: 40px;
+    .catalog-container {
+        margin-bottom: 80px;
+    }
+
+    .catalog-subtitle {
+        font-size: 48px;
+        line-height: 0.91;
+        margin-bottom: 40px;
+    }
+
+    .catalog-list {
+        gap: 32px 16px;
+        margin-bottom: 0;
+
+    }
+
+    .catalog-list-item {
+        flex: 0 1 calc((100% - 16px) / 2);
+        padding: 24px 32px;
   }
 
   .catalog-list {
@@ -146,13 +160,17 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .catalog-list {
-    gap: 32px 23px;
-    margin-bottom: 0;
-  }
+    .catalog-container {
+        margin-bottom: 100px;
+    }
 
-  .catalog-list-item {
-    width: 368px;
-    flex: 0 1 calc((100% - 46px) / 3);
-  }
+    .catalog-list {
+        gap: 32px 23px;
+        margin-bottom: 0;
+    }
+
+    .catalog-list-item {
+        max-width: 368px;
+    }
 }
+
