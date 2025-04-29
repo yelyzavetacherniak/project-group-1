@@ -82,9 +82,10 @@
 @media only screen and (min-width: 1280px) {
   .advertisement-wrapper {
     padding: 83px 80px;
-    display: flex;
+    position: relative;
+    /*display: flex;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 
     background-image: url(../img/advertisement/story-desk-min.png);
     background-repeat: no-repeat;
@@ -102,6 +103,12 @@
   .advertisement-text {
     max-width: 690px;
     margin-bottom: 0;
-    margin-right: 140px;
+    /*margin-right: 0px;*/
+  }
+
+  .advertisement-btn {
+    position: absolute;
+    top: 80px;
+    right: 80px;
   }
 }
